@@ -3,8 +3,8 @@ import './slider.css';
 
 const SliderComponent = props => {
     return (
-        <Fragment>
         <div id="slider" className="slider">
+        <h1>Avengers Avenue</h1>
             <a href="#" className="control_next">
                 <img src="https://s3-ap-southeast-1.amazonaws.com/he-public-data/Right%20Control3fc6d2d.png" />
             </a>
@@ -21,7 +21,6 @@ const SliderComponent = props => {
                 }
             </ul>  
         </div>
-        </Fragment>
     );
 }
 

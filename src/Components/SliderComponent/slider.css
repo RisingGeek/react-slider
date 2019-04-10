@@ -7,6 +7,7 @@
   position: relative;
   margin: 0;
   padding: 0;
+  width: 100vw;
   height: 100vh;
   list-style: none;
 }
@@ -32,18 +33,9 @@ a.control_prev, a.control_next {
   display: block;
   cursor: pointer;
 }
-
-a.control_prev:hover, a.control_next:hover {
-  opacity: 1;
-  transition: all 0.2s ease;
-  -webkit-transition: all 0.2s ease;
-}
-
-a.control_prev {
-  border-radius: 0 2px 2px 0;
-}
-
 a.control_next {
   right: 0;
-  border-radius: 2px 0 0 2px;
+}
+h1 {
+  text-align: center;
 }
