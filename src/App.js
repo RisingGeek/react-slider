@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
+import Slider from './Containers/Slider';
 
 class App extends Component {
     render() {
         return (
-        <div><h1>yo react app</h1></div>
+            <Slider />
         );
     }
 }
