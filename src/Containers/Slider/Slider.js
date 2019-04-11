@@ -43,7 +43,7 @@ class Slider extends Component {
         })
     }
     sliderInit = () => {
-        $(document).ready(($) => {
+        $(document).ready(() => {
             var slideCount = $('#slider ul li').length;
             var slideWidth = $('#slider ul li').width();
             var slideHeight = $('#slider ul li').height();
